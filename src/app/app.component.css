@@ -1,0 +1,11 @@
+.kozep{
+    text-align: center;
+}
+.kepkozep{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height : 950px; 
+    width : 1600px;
+       
+}
