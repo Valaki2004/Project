@@ -1,0 +1,18 @@
+.egesz {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100vh; 
+}
+
+.tartalom {
+    text-align: center;
+}
+
+.kepkozep {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%; 
+    max-height: auto;
+}
