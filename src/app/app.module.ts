@@ -8,6 +8,7 @@ import { MapComponent } from './map/map.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SettlementsComponent } from './settlements/settlements.component';
 import { CommentsComponent } from './comments/comments.component';
+import { SafeHtmlPipe } from './safe-html.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CommentsComponent } from './comments/comments.component';
     MapComponent,
     NavbarComponent,
     SettlementsComponent,
-    CommentsComponent
+    CommentsComponent,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
